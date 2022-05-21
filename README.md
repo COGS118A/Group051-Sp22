@@ -1,3 +1,6 @@
+# Note to Graders
+> **All submitted reports (i.e. `Checkpoint_group051.ipynb`) can be found in `/reports/`!**
+
 # COGS118A Project template
 This is your group repo for your final project for COGS118A
 
@@ -9,8 +12,6 @@ This is your repo. You are free to manage the repo as you see fit, edit this REA
 
 Also, you are free and encouraged to share this project after the course and to add it to your portfolio. Just be sure to fork it to your GitHub at the end of the quarter!
 
-# Note to Graders
-> **All submitted reports (i.e. `Checkpoint_group051.ipynb`) can be found in `/reports/`!**
 
 # Group Notes
 This project uses a trimmed down version of cookiecutter data science! It's designed to have sensible defaults as to where to place files. The biggest take-aways are the following:
