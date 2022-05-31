@@ -11,8 +11,8 @@ from skimage.io import imread
 @click.command()
 @click.argument('input_filepath', type=click.Path(exists=True))
 @click.argument('output_filepath', type=click.Path())
-@click.option('--input_size', type=click.IntRange(0), default=10_000)
-@click.option('--output_size', type=click.IntRange(0), default=2_000)
+@click.option('--input_size', type=click.IntRange(0), default=2_500)
+@click.option('--output_size', type=click.IntRange(0), default=500)
 def main(input_filepath: click.Path, output_filepath: click.Path, input_size: int, output_size: int):
     """ Runs data processing scripts to turn raw data from (../raw) into
         cleaned data ready to be analyzed (saved in ../processed).
