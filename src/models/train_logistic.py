@@ -14,7 +14,7 @@ def read_fen(fen: str):
         if(char.isdigit()):
             board += [np.nan] * int(char)
         elif(char != '-'):
-            board += char.lower() # we don't care about black v. white pieces
+            board += char
     board = np.reshape(board, (8, 8))
     return board
 
