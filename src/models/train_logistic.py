@@ -25,9 +25,9 @@ def main(data_filepath: click.Path):
     # LOAD DATA
     tr_X, tr_y = load_data(path.joinpath('train'))
 
-    pipeline = Pipeline([
-        ("scaler", StandardScaler())
-        ("model", LogisticRegression(max_iter=1))
+    pipeline = Pipeline(steps=[
+        ("scaler", StandardScaler()),
+        ("logistic", LogisticRegression(max_iter=250))
     ])
     
     params = {
@@ -36,11 +36,11 @@ def main(data_filepath: click.Path):
     "logistic__class_weight" : [None, 'balanced']
     }
 
-    gs = GridSearchCV(pipeline, scoring='accuracy',param_grid=params)
-    pipeline.fit(tr_X, tr_y)
+    gscv = GridSearchCV(pipeline, scoring='accuracy',param_grid=params, verbose=2)
+    gscv.fit(tr_X, tr_y)
 
     test_X, test_y = load_data(path.joinpath('test'))
-    score = pipeline.score(test_X, test_y)
+    score = gscv.score(test_X, test_y)
     print(score)
 
 
