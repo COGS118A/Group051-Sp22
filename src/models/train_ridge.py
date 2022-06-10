@@ -1,13 +1,12 @@
 import logging
 from pathlib import Path
 import click
-from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import GridSearchCV
-from sklearn.preprocessing import StandardScaler
-from sklearn.impute import SimpleImputer
-from sklearn.pipeline import Pipeline
 from sklearn.decomposition import PCA
+from sklearn.linear_model import Ridge
+from sklearn.model_selection import GridSearchCV
+from sklearn.pipeline import Pipeline
 import numpy as np
+from sklearn.preprocessing import StandardScaler
 
 def read_fen(fen: str):
     board = []
@@ -26,20 +25,15 @@ def main(data_filepath: click.Path):
     # LOAD DATA
     tr_X, tr_y = load_data(path.joinpath('train'))
 
-    pipeline = Pipeline(steps=[
+    pipeline = Pipeline([
         ("scaler", StandardScaler()),
         ("pca", PCA(n_components=60)),
-        ("logistic", LogisticRegression(max_iter=300))
+        ("ridge", Ridge())
     ])
-    
     params = {
-    "logistic__solver" : ['saga'],
-    "logistic__penalty" : ['l2', 'l1'],
-    "logistic__C" : [0.01, 0.1, 1, 10]#,
-    #"logistic__class_weight" : ['balanced']
+    "ridge__alpha" : [0.01, 0.1, 1, 10]
     }
-
-    gscv = GridSearchCV(pipeline, cv=3, scoring='accuracy',param_grid=params, verbose=3)
+    gscv = GridSearchCV(pipeline, cv=3, scoring='accuracy',param_grid=params, verbose=3, error_score='raise')
     gscv.fit(tr_X, tr_y)
 
     test_X, test_y = load_data(path.joinpath('test'))
