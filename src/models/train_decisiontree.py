@@ -40,6 +40,8 @@ def main(data_filepath: click.Path):
         #class_weight='balanced'
     )
 
+
+    # Delete dtmodel to refresh model.
     if exists("dtmodel"):
         dt =pickle.load(open('dtmodel', 'rb'))
         print("Restored DT from file")
@@ -54,8 +56,8 @@ def main(data_filepath: click.Path):
     print(dt.classes_)
     print(dt.score(test_X, test_y))
 
-    ConfusionMatrixDisplay.from_estimator(dt, test_X, test_y)
-    plt.savefig("./decisiontreewithoutclassweight.png")
+    #ConfusionMatrixDisplay.from_estimator(dt, test_X, test_y)
+    #plt.savefig("./decisiontreewithoutclassweight.png")
 
 
 

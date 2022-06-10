@@ -29,11 +29,15 @@ def main(data_filepath: click.Path):
     test_X, test_y = load_data(path.joinpath('test'))
 
 
+    '''
+
     knn = KNeighborsClassifier(n_neighbors=5)
     knn.fit(tr_X, tr_y)
 
     ConfusionMatrixDisplay.from_estimator(knn, test_X, test_y)
     plt.savefig("./knn.png")
+
+    '''
 
     '''
     print(knn.classes_)
@@ -48,7 +52,9 @@ def main(data_filepath: click.Path):
     for i, unique in enumerate(uniques):
         print(unique + ": " + str(counts[i]))
     '''
-    '''
+
+    knn = KNeighborsClassifier()
+    
     parameters = {
         'n_neighbors':range(8, 20),
         'weights': ('uniform', 'distance'),
@@ -60,20 +66,7 @@ def main(data_filepath: click.Path):
     
     print(grid_search.best_estimator_.get_params())
     print(best_model.cv_results_)
-    '''
-
-    '''
-    pipeline = Pipeline([
-        # ('') # TODO: try out different transforms (ex: StandardScalar)
-        ("model", LogisticRegression(max_iter=1))
-    ])
-
-    pipeline.fit(tr_X, tr_y)
-
-    test_X, test_y = load_data(path.joinpath('test'))
-    score = pipeline.score(test_X, test_y)
-    print(score)
-    '''
+    
 
 
 def load_data(path: Path):
