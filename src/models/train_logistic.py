@@ -6,6 +6,7 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.preprocessing import StandardScaler
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
+from sklearn.decomposition import PCA
 import numpy as np
 
 def read_fen(fen: str):
@@ -27,21 +28,25 @@ def main(data_filepath: click.Path):
 
     pipeline = Pipeline(steps=[
         ("scaler", StandardScaler()),
-        ("logistic", LogisticRegression(max_iter=250))
+        ("pca", PCA(n_components=60)),
+        ("logistic", LogisticRegression(max_iter=200))
     ])
     
     params = {
-    "logistic__solver" : ['lbfgs'],
-    "logistic__penalty" : ['none', 'l2'],
-    "logistic__class_weight" : [None, 'balanced']
+    "logistic__solver" : ['saga'],
+    "logistic__penalty" : ['l2', 'l1'],
+    "logistic__C" : [0.01, 0.1, 1, 10],
+    "logistic__class_weight" : ['balanced']
     }
 
-    gscv = GridSearchCV(pipeline, scoring='accuracy',param_grid=params, verbose=2)
+    gscv = GridSearchCV(pipeline, cv=3, scoring='accuracy',param_grid=params, verbose=3)
     gscv.fit(tr_X, tr_y)
 
     test_X, test_y = load_data(path.joinpath('test'))
     score = gscv.score(test_X, test_y)
     print(score)
+    print(gscv.best_params_)
+    print(gscv.cv_results_)
 
 
 def load_data(path: Path):

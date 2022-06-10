@@ -1,0 +1,108 @@
+[CV 1/3] END logistic__C=0.01, logistic__class_weight=balanced, logistic__penalty=l2, logistic__solver=saga;, score=0.038 total time= 1.0min
+[CV 2/3] END logistic__C=0.01, logistic__class_weight=balanced, logistic__penalty=l2, logistic__solver=saga;, score=0.037 total time= 1.1min
+[CV 3/3] END logistic__C=0.01, logistic__class_weight=balanced, logistic__penalty=l2, logistic__solver=saga;, score=0.035 total time= 1.0min
+[CV 1/3] END logistic__C=0.01, logistic__class_weight=balanced, logistic__penalty=l1, logistic__solver=saga;, score=0.036 total time= 1.1min
+[CV 2/3] END logistic__C=0.01, logistic__class_weight=balanced, logistic__penalty=l1, logistic__solver=saga;, score=0.036 total time= 1.2min
+[CV 3/3] END logistic__C=0.01, logistic__class_weight=balanced, logistic__penalty=l1, logistic__solver=saga;, score=0.034 total time= 1.2min
+[CV 1/3] END logistic__C=0.01, logistic__class_weight=balanced, logistic__penalty=elasticnet, logistic__solver=saga;, score=nan total time=  37.8s
+[CV 2/3] END logistic__C=0.01, logistic__class_weight=balanced, logistic__penalty=elasticnet, logistic__solver=saga;, score=nan total time=  37.3s
+[CV 3/3] END logistic__C=0.01, logistic__class_weight=balanced, logistic__penalty=elasticnet, logistic__solver=saga;, score=nan total time=  37.9s
+[CV 1/3] END logistic__C=0.1, logistic__class_weight=balanced, logistic__penalty=l2, logistic__solver=saga;, score=0.039 total time= 1.1min
+[CV 2/3] END logistic__C=0.1, logistic__class_weight=balanced, logistic__penalty=l2, logistic__solver=saga;, score=0.038 total time= 1.1min
+[CV 3/3] END logistic__C=0.1, logistic__class_weight=balanced, logistic__penalty=l2, logistic__solver=saga;, score=0.035 total time= 1.1min
+[CV 1/3] END logistic__C=0.1, logistic__class_weight=balanced, logistic__penalty=l1, logistic__solver=saga;, score=0.038 total time= 1.4min
+[CV 2/3] END logistic__C=0.1, logistic__class_weight=balanced, logistic__penalty=l1, logistic__solver=saga;, score=0.037 total time= 1.8min
+[CV 3/3] END logistic__C=0.1, logistic__class_weight=balanced, logistic__penalty=l1, logistic__solver=saga;, score=0.035 total time= 1.4min
+[CV 1/3] END logistic__C=0.1, logistic__class_weight=balanced, logistic__penalty=elasticnet, logistic__solver=saga;, score=nan total time=  39.3s
+[CV 2/3] END logistic__C=0.1, logistic__class_weight=balanced, logistic__penalty=elasticnet, logistic__solver=saga;, score=nan total time=  37.1s
+[CV 3/3] END logistic__C=0.1, logistic__class_weight=balanced, logistic__penalty=elasticnet, logistic__solver=saga;, score=nan total time=  36.8s
+[CV 1/3] END logistic__C=1, logistic__class_weight=balanced, logistic__penalty=l2, logistic__solver=saga;, score=0.039 total time= 1.0min
+[CV 2/3] END logistic__C=1, logistic__class_weight=balanced, logistic__penalty=l2, logistic__solver=saga;, score=0.037 total time= 1.1min
+[CV 3/3] END logistic__C=1, logistic__class_weight=balanced, logistic__penalty=l2, logistic__solver=saga;, score=0.035 total time= 1.1min
+C:\Users\Zeven\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\sklearn\linear_model\_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 1/3] END logistic__C=1, logistic__class_weight=balanced, logistic__penalty=l1, logistic__solver=saga;, score=0.038 total time= 3.9min
+C:\Users\Zeven\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\sklearn\linear_model\_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 2/3] END logistic__C=1, logistic__class_weight=balanced, logistic__penalty=l1, logistic__solver=saga;, score=0.037 total time= 4.5min
+C:\Users\Zeven\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\sklearn\linear_model\_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 3/3] END logistic__C=1, logistic__class_weight=balanced, logistic__penalty=l1, logistic__solver=saga;, score=0.035 total time= 4.0min
+[CV 1/3] END logistic__C=1, logistic__class_weight=balanced, logistic__penalty=elasticnet, logistic__solver=saga;, score=nan total time=  40.1s
+[CV 2/3] END logistic__C=1, logistic__class_weight=balanced, logistic__penalty=elasticnet, logistic__solver=saga;, score=nan total time=  46.4s
+[CV 3/3] END logistic__C=1, logistic__class_weight=balanced, logistic__penalty=elasticnet, logistic__solver=saga;, score=nan total time=  40.7s
+[CV 1/3] END logistic__C=10, logistic__class_weight=balanced, logistic__penalty=l2, logistic__solver=saga;, score=0.038 total time= 1.2min
+[CV 2/3] END logistic__C=10, logistic__class_weight=balanced, logistic__penalty=l2, logistic__solver=saga;, score=0.037 total time= 1.1min
+[CV 3/3] END logistic__C=10, logistic__class_weight=balanced, logistic__penalty=l2, logistic__solver=saga;, score=0.035 total time= 1.2min
+C:\Users\Zeven\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\sklearn\linear_model\_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 1/3] END logistic__C=10, logistic__class_weight=balanced, logistic__penalty=l1, logistic__solver=saga;, score=0.038 total time= 3.6min
+C:\Users\Zeven\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\sklearn\linear_model\_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 2/3] END logistic__C=10, logistic__class_weight=balanced, logistic__penalty=l1, logistic__solver=saga;, score=0.037 total time= 3.6min
+[CV 3/3] END logistic__C=10, logistic__class_weight=balanced, logistic__penalty=l1, logistic__solver=saga;, score=0.036 total time= 1.4min
+[CV 1/3] END logistic__C=10, logistic__class_weight=balanced, logistic__penalty=elasticnet, logistic__solver=saga;, score=nan total time=  37.3s
+[CV 2/3] END logistic__C=10, logistic__class_weight=balanced, logistic__penalty=elasticnet, logistic__solver=saga;, score=nan total time=  38.6s
+[CV 3/3] END logistic__C=10, logistic__class_weight=balanced, logistic__penalty=elasticnet, logistic__solver=saga;, score=nan total time=  41.9s
+C:\Users\Zeven\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\sklearn\model_selection\_validation.py:378: FitFailedWarning:
+12 fits failed out of a total of 36.
+The score on these train-test partitions for these parameters will be set to nan.
+If these failures are not expected, you can try to debug them by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+12 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\Zeven\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\sklearn\model_selection\_validation.py", line 686, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\Zeven\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\sklearn\pipeline.py", line 382, in fit 
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\Zeven\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\sklearn\linear_model\_logistic.py", line 1101, in fit
+    raise ValueError(
+ValueError: l1_ratio must be between 0 and 1; got (l1_ratio=None)
+
+  warnings.warn(some_fits_failed_message, FitFailedWarning)
+C:\Users\Zeven\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\sklearn\model_selection\_search.py:953: UserWarning: One or more of the test scores are non-finite: [0.03660624 0.03566875        nan 0.03721874 0.03670624        nan
+ 0.03691874 0.03670624        nan 0.03673749 0.03683124        nan]
+  warnings.warn(
+0.0366875
+{'logistic__C': 0.1, 'logistic__class_weight': 'balanced', 'logistic__penalty': 'l2', 'logistic__solver': 'saga'}
+{'mean_fit_time': array([ 59.33266528,  65.67098451,  37.7443254 ,  60.86506724,
+        88.94658399,  37.83604542,  59.90103364, 244.97682691,
+        42.50541035,  66.05878083, 167.36506144,  39.35292665]), 'std_fit_time': array([ 1.88285481,  1.44095042,  0.2752911 ,  0.88907409, 11.32789196,
+        1.0892508 ,  0.74309005, 14.09476081,  2.83425844,  3.24060019,
+       62.33331857,  1.92006275]), 'mean_score_time': array([3.43480325, 3.50711362, 0.        , 3.36049747, 3.37650124,
+       0.        , 3.60939153, 3.89494077, 0.        , 3.93624846,
+       3.58407362, 0.        ]), 'std_score_time': array([0.04028087, 0.08082812, 0.        , 0.0008151 , 0.04815394,
+       0.        , 0.32942822, 0.34011967, 0.        , 0.36253511,
+       0.18009364, 0.        ]), 'param_logistic__C': masked_array(data=[0.01, 0.01, 0.01, 0.1, 0.1, 0.1, 1, 1, 1, 10, 10, 10],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_logistic__class_weight': masked_array(data=['balanced', 'balanced', 'balanced', 'balanced',
+                   'balanced', 'balanced', 'balanced', 'balanced',
+                   'balanced', 'balanced', 'balanced', 'balanced'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_logistic__penalty': masked_array(data=['l2', 'l1', 'elasticnet', 'l2', 'l1', 'elasticnet',
+                   'l2', 'l1', 'elasticnet', 'l2', 'l1', 'elasticnet'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_logistic__solver': masked_array(data=['saga', 'saga', 'saga', 'saga', 'saga', 'saga', 'saga',
+                   'saga', 'saga', 'saga', 'saga', 'saga'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'params': [{'logistic__C': 0.01, 'logistic__class_weight': 'balanced', 'logistic__penalty': 'l2', 'logistic__solver': 'saga'}, {'logistic__C': 0.01, 'logistic__class_weight': 'balanced', 'logistic__penalty': 'l1', 'logistic__solver': 'saga'}, {'logistic__C': 0.01, 'logistic__class_weight': 'balanced', 'logistic__penalty': 'elasticnet', 'logistic__solver': 'saga'}, {'logistic__C': 0.1, 'logistic__class_weight': 'balanced', 'logistic__penalty': 'l2', 'logistic__solver': 'saga'}, {'logistic__C': 0.1, 'logistic__class_weight': 'balanced', 'logistic__penalty': 'l1', t': 'balanced', 'logistic__penalty': 'l1', 'logistic__solver': 'saga'}, {'logistic__C': 0.1, 'logistic__class_weight': 'balanced', 'logistic__penalty': 'elasticnet', 'logistic__solver'ass_weight': 'balanced', 'logistic__penalty: 'saga'}, {'logistic__C': 1, 'logistic__class_weight': 'balanced', 'logistic__penalty': 'l2', 'logistic__solver': 'saga'}, {'logistic__C': 1, 'logistic__class_weight': 'balanced', 'loss_weight': 'balanced', 'logistic__penalty'gistic__penalty': 'l1', 'logistic__solver': 'saga'}, {'logistic__C': 1, 'logistic__class_weight': 'balanced', 'logistic__penalty': 'elasticnet', 'logistic__solver': 'saga'}, {'logisticstic__class_weight': 'balanced', 'logistic___C': 10, 'logistic__class_weight': 'balanced', 'logistic__penalty': 'l2', 'logistic__solver': 'saga'}, {'logistic__C': 10, 'logistic__class_weight': 'balanced', 'logistic__penalty': 'ore': array([0.03808077, 0.03644954,       l1', 'logistic__solver': 'saga'}, {'logistic__C': 10, 'logistic__class_weight': 'balanced', 'logistic__penalty': 'elasticnet', 'logistic__solver': 'saga'}], 'split0_test_score': array([0.03808077, 0.03644954,        nan, 0.03866202, 0.03798703,
+              nan, 0.03877452, 0.03841827,        nan, 0.03839952,
+       0.03819327,        nan]), 'split1_test_score': array([0.03716273, 0.03628148,        nan, 0.03766899, 0.03736898,
+              nan, 0.03676898, 0.03673148,        nan, 0.03697523,
+       0.03669398,        nan]), 'split2_test_score': array([0.03457522, 0.03427521,        nan, 0.03532522, 0.03476272,
+              nan, 0.03521272, 0.03496897,        nan, 0.03483772,
+       0.03560647,        nan]), 'mean_test_score': array([0.03660624, 0.03566875,        nan, 0.03721874, 0.03670624,
+              nan, 0.03691874, 0.03670624,        nan, 0.03673749,
+       0.03683124,        nan]), 'std_test_score': array([0.00148425, 0.00098776,        nan, 0.00139895, 0.00139725,
+              nan, 0.00145795, 0.00140828,        nan, 0.00146378,
+       0.00106051,        nan]), 'rank_test_score': array([ 7,  8,  9,  1,  5, 10,  2,  6, 11,  4,  3, 12])}
