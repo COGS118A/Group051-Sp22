@@ -1,0 +1,63 @@
+Fitting 1 folds for each of 24 candidates, totalling 24 fits
+[CV 1/1] END ....n_neighbors=8, weights=uniform;, score=0.829 total time= 1.6min
+[CV 1/1] END ...n_neighbors=8, weights=distance;, score=0.829 total time= 1.5min
+[CV 1/1] END ....n_neighbors=9, weights=uniform;, score=0.830 total time= 1.6min
+[CV 1/1] END ...n_neighbors=9, weights=distance;, score=0.830 total time= 1.6min
+[CV 1/1] END ...n_neighbors=10, weights=uniform;, score=0.830 total time= 1.6min
+[CV 1/1] END ..n_neighbors=10, weights=distance;, score=0.830 total time= 1.6min
+[CV 1/1] END ...n_neighbors=11, weights=uniform;, score=0.830 total time= 1.6min
+[CV 1/1] END ..n_neighbors=11, weights=distance;, score=0.830 total time= 1.5min
+[CV 1/1] END ...n_neighbors=12, weights=uniform;, score=0.830 total time= 1.6min
+[CV 1/1] END ..n_neighbors=12, weights=distance;, score=0.830 total time= 1.5min
+[CV 1/1] END ...n_neighbors=13, weights=uniform;, score=0.830 total time= 1.6min
+[CV 1/1] END ..n_neighbors=13, weights=distance;, score=0.830 total time= 1.6min
+[CV 1/1] END ...n_neighbors=14, weights=uniform;, score=0.830 total time= 1.6min
+[CV 1/1] END ..n_neighbors=14, weights=distance;, score=0.830 total time= 1.5min
+[CV 1/1] END ...n_neighbors=15, weights=uniform;, score=0.830 total time= 1.5min
+[CV 1/1] END ..n_neighbors=15, weights=distance;, score=0.830 total time= 1.5min
+[CV 1/1] END ...n_neighbors=16, weights=uniform;, score=0.830 total time= 1.6min
+[CV 1/1] END ..n_neighbors=16, weights=distance;, score=0.830 total time= 1.5min
+[CV 1/1] END ...n_neighbors=17, weights=uniform;, score=0.830 total time= 1.5min
+[CV 1/1] END ..n_neighbors=17, weights=distance;, score=0.830 total time= 1.5min
+[CV 1/1] END ...n_neighbors=18, weights=uniform;, score=0.830 total time= 1.5min
+[CV 1/1] END ..n_neighbors=18, weights=distance;, score=0.830 total time= 1.5min
+[CV 1/1] END ...n_neighbors=19, weights=uniform;, score=0.830 total time= 1.6min
+[CV 1/1] END ..n_neighbors=19, weights=distance;, score=0.830 total time= 1.5min
+{'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 14, 'p': 2, 'weights': 'uniform'}
+{'mean_fit_time': array([1.0170629 , 1.04800248, 1.05999804, 1.27199936, 1.09702396,
+       1.06100082, 1.18500876, 1.10099936, 1.07603121, 1.0739994 ,
+       1.09800029, 1.08799934, 1.11199903, 1.0829525 , 1.04200077,
+       1.03597665, 1.04805851, 1.04403543, 1.04597044, 1.03800273,
+       1.05302715, 1.04398298, 1.05094123, 1.04399991]), 'std_fit_time': array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0.]), 'mean_score_time': array([92.48392844, 91.83211541, 93.69094276, 93.40500045, 93.83188581,
+       93.94505525, 93.7200284 , 91.70604658, 92.84396911, 91.57643533,
+       92.0240643 , 92.03605318, 93.46331429, 91.53603745, 91.80504656,
+       91.25198817, 92.28200173, 91.4549346 , 91.7620399 , 91.08017945,
+       91.71797919, 91.12197018, 92.31786323, 91.26310015]), 'std_score_time': array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0.]), 'param_n_neighbors': masked_array(data=[8, 8, 9, 9, 10, 10, 11, 11, 12, 12, 13, 13, 14, 14, 15,
+                   15, 16, 16, 17, 17, 18, 18, 19, 19],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_weights': masked_array(data=['uniform', 'distance', 'uniform', 'distance',
+                   'uniform', 'distance', 'uniform', 'distance',
+                   'uniform', 'distance', 'uniform', 'distance',
+                   'uniform', 'distance', 'uniform', 'distance',
+                   'uniform', 'distance', 'uniform', 'distance',
+                   'uniform', 'distance', 'uniform', 'distance'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False],
+       fill_value='?',
+            dtype=object), 'params': [{'n_neighbors': 8, 'weights': 'uniform'}, {'n_neighbors': 8, 'weights': 'distance'}, {'n_neighbors': 9, 'weights': 'uniform'}, {'n_neighbors': 9, 'weights': 'distance'}, {'n_neighbors': 10, 'weights': 'uniform'}, {'n_neighbors': 10, 'weights': 'distance'}, {'n_neighbors': 11, 'weights': 'uniform'}, {'n_neighbors': 11, 'weights': 'distance'}, {'n_neighbors': 12, 'weights': 'uniform'}, {'n_neighbors': 12, 'weights': 'distance'}, {'n_neighbors': 13, 'weights': 'uniform'}, {'n_neighbors': 13, 'weights': 'distance'}, {'n_neighbors': 14, 'weights': 'uniform'}, {'n_neighbors': 14, 'weights': 'distance'}, {'n_neighbors': 15, 'weights': 'uniform'}, {'n_neighbors': 15, 'weights': 'distance'}, {'n_neighbors': 16, 'weights': 'uniform'}, {'n_neighbors': 16, 'weights': 'distance'}, {'n_neighbors': 17, 'weights': 'uniform'}, {'n_neighbors': 17, 'weights': 'distance'}, {'n_neighbors': 18, 'weights': 'uniform'}, {'n_neighbors': 18, 'weights': 'distance'}, {'n_neighbors': 19, 'weights': 'uniform'}, {'n_neighbors': 19, 'weights': 'distance'}], 'split0_test_score': array([0.82945833, 0.82927083, 0.82979167, 0.8295625 , 0.82995833,
+       0.82970833, 0.82989583, 0.8298125 , 0.829875  , 0.829875  ,
+       0.82989583, 0.82985417, 0.83      , 0.82989583, 0.82995833,
+       0.82985417, 0.8299375 , 0.8299375 , 0.82997917, 0.82985417,
+       0.82989583, 0.82983333, 0.82989583, 0.82989583]), 'mean_test_score': array([0.82945833, 0.82927083, 0.82979167, 0.8295625 , 0.82995833,
+       0.82970833, 0.82989583, 0.8298125 , 0.829875  , 0.829875  ,
+       0.82989583, 0.82985417, 0.83      , 0.82989583, 0.82995833,
+       0.82985417, 0.8299375 , 0.8299375 , 0.82997917, 0.82985417,
+       0.82989583, 0.82983333, 0.82989583, 0.82989583]), 'std_test_score': array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0.]), 'rank_test_score': array([23, 24, 20, 22,  3, 21,  7, 19, 13, 13,  7, 15,  1,  7,  3, 15,  5,
+        5,  2, 15,  7, 18,  7,  7])}

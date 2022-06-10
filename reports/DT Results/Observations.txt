@@ -1,0 +1,2 @@
+Increasing max depth tends to reduce accuracy.
+using random splitter increases training speed 10X, reduces accuracy slightly.
