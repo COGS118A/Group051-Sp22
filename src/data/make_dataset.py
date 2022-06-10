@@ -2,7 +2,6 @@
 from glob import glob
 from pathlib import Path
 import click
-import chess
 import logging
 import numpy as np
 from tqdm import tqdm

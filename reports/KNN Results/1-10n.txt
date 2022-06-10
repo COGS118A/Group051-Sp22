@@ -1,0 +1,56 @@
+Fitting 1 folds for each of 20 candidates, totalling 20 fits
+[CV 1/1] END ....n_neighbors=1, weights=uniform;, score=0.687 total time= 1.6min
+[CV 1/1] END ...n_neighbors=1, weights=distance;, score=0.687 total time= 1.7min
+[CV 1/1] END ....n_neighbors=2, weights=uniform;, score=0.619 total time= 1.7min
+[CV 1/1] END ...n_neighbors=2, weights=distance;, score=0.687 total time= 1.7min
+[CV 1/1] END ....n_neighbors=3, weights=uniform;, score=0.769 total time= 1.7min
+[CV 1/1] END ...n_neighbors=3, weights=distance;, score=0.782 total time= 1.6min
+[CV 1/1] END ....n_neighbors=4, weights=uniform;, score=0.809 total time= 1.6min
+[CV 1/1] END ...n_neighbors=4, weights=distance;, score=0.812 total time= 1.6min
+[CV 1/1] END ....n_neighbors=5, weights=uniform;, score=0.820 total time= 1.6min
+[CV 1/1] END ...n_neighbors=5, weights=distance;, score=0.821 total time= 1.6min
+[CV 1/1] END ....n_neighbors=6, weights=uniform;, score=0.825 total time= 1.7min
+[CV 1/1] END ...n_neighbors=6, weights=distance;, score=0.825 total time= 1.7min
+[CV 1/1] END ....n_neighbors=7, weights=uniform;, score=0.826 total time= 1.7min
+[CV 1/1] END ...n_neighbors=7, weights=distance;, score=0.826 total time= 1.6min
+[CV 1/1] END ....n_neighbors=8, weights=uniform;, score=0.827 total time= 1.7min
+[CV 1/1] END ...n_neighbors=8, weights=distance;, score=0.827 total time= 1.6min
+[CV 1/1] END ....n_neighbors=9, weights=uniform;, score=0.827 total time= 1.6min
+[CV 1/1] END ...n_neighbors=9, weights=distance;, score=0.827 total time= 1.6min
+[CV 1/1] END ...n_neighbors=10, weights=uniform;, score=0.827 total time= 1.6min
+[CV 1/1] END ..n_neighbors=10, weights=distance;, score=0.827 total time= 1.5min
+{'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 10, 'p': 2, 'weights': 'uniform'}
+{'mean_fit_time': array([1.08629823, 1.06696892, 1.10489559, 1.1673553 , 1.09213328,
+       1.15382481, 1.16289353, 1.05601239, 1.12106943, 1.07088995,
+       1.06302786, 1.14402413, 1.14407039, 1.0662539 , 1.16245127,
+       1.1302743 , 1.08729672, 1.15299988, 1.10309672, 1.0620234 ]), 'std_fit_time': array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0.]), 'mean_score_time': array([ 95.43178821,  99.95363641,  99.12505937,  98.70679784,
+        98.76997638,  93.77141881,  96.29989123,  95.14195085,
+        95.7459209 ,  97.14217424, 102.6242981 ,  99.23679256,
+       101.01183772,  95.3980279 , 100.86225367,  97.16809726,
+        97.11115646,  95.09008241,  95.27681565,  91.98513556]), 'std_score_time': array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0.]), 'param_n_neighbors': masked_array(data=[1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9,
+                   10, 10],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_weights': masked_array(data=['uniform', 'distance', 'uniform', 'distance',
+                   'uniform', 'distance', 'uniform', 'distance',
+                   'uniform', 'distance', 'uniform', 'distance',
+                   'uniform', 'distance', 'uniform', 'distance',
+                   'uniform', 'distance', 'uniform', 'distance'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'params': [{'n_neighbors': 1, 'weights': 'uniform'}, {'n_neighbors': 1, 'weights': 'distance'}, {'n_neighbors': 2, 'weights': 'uniform'}, {'n_neighbors': 2, 'weights': 'distance'}, {'n_neighbors': 3, 'weights': 'uniform'}, {'n_neighbors': 3, 'weights': 'distance'}, {'n_neighbors': 4, 'weights': 'uniform'}, {'n_neighbors': 4, 'weights': 'distance'}, {'n_neighbors': 5, 'weights': 'uniform'}, {'n_neighbors': 
+5, 'weights': 'distance'}, {'n_neighbors': 6, 'weights': 'uniform'}, {'n_neighbors': 6, 'weights': 'distance'}, {'n_neighbors': 7, 'weights': 'uniform'}, {'n_neighbors': 7, 'weights': 'distance'}, {'n_neighbors': 8, 'weights': 'uniform'}, {'n_neighbors': 8, 'weights': 'distance'}, {'n_neighbors': 9, 'weights': 'uniform'}, {'n_neighbors': 9, 'weights': 'distance'}, {'n_neighbors': 10, 'weights': 'uniform'}, {'n_neighbors': 10, 'weights': 'distance'}], 'split0_test_score': array([0.6866875 , 0.6866875 , 0.61877083, 0.6866875 , 0.76945833,
+       0.78214583, 0.80885417, 0.811875  , 0.82039583, 0.82058333,
+       0.82470833, 0.82470833, 0.8261875 , 0.82610417, 0.826875  ,
+       0.82666667, 0.8270625 , 0.826875  , 0.82714583, 0.827     ]), 'mean_test_score': array([0.6866875 , 0.6866875 , 0.61877083, 0.6866875 , 0.76945833,
+       0.78214583, 0.80885417, 0.811875  , 0.82039583, 0.82058333,
+       0.82470833, 0.82470833, 0.8261875 , 0.82610417, 0.826875  ,
+       0.82666667, 0.8270625 , 0.826875  , 0.82714583, 0.827     ]), 'std_test_score': array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0.]), 'rank_test_score': array([17, 17, 20, 17, 16, 15, 14, 13, 12, 11,  9,  9,  7,  8,  4,  6,  2,
+        4,  1,  3])}
